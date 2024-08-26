@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #48AAAD;
+  background: #48aaad;
 }
 
 .container {
@@ -26,7 +26,6 @@ body {
   margin-left: 250px;
   /* Adjust margin-left to match sidebar width */
 }
-
 
 @media (max-width: 700px) {
   .container {
@@ -150,7 +149,8 @@ body {
   border-radius: 8px;
   font-size: 24px;
   margin-bottom: 30px;
-  background: linear-gradient(140deg, #9083d5, #271776ca);
+  /* background: linear-gradient(140deg, #9083d5, #271776ca); */
+  background-color: #48aaad !important;
 }
 
 .form-component .wrapper {
@@ -159,7 +159,6 @@ body {
 }
 
 .form-component .wrapper .banner {
-
   flex: 1;
 }
 
@@ -185,7 +184,6 @@ body {
 }
 
 @media (max-width: 667px) {
-
   .form-component form input,
   .form-component form select,
   .form-component form textarea {
@@ -223,7 +221,7 @@ body {
   display: flex;
   align-items: center;
   border-radius: 20px;
-  background: #b5b5ff;
+  background: #ffffff;
   align-items: center;
   justify-content: center;
   padding: 1rem;
@@ -253,7 +251,7 @@ body {
 }
 
 .dashboard .banner:first-child .firstBox .content div h5 {
-  color: #ff008d;
+  color: #48aaad;
 }
 
 .dashboard .banner:first-child .firstBox .content p {
@@ -261,12 +259,12 @@ body {
 }
 
 .dashboard .banner:first-child .secondBox {
-  background: #000000f2;
-  color: #fff;
+  background: #fffffff2;
+  color: #48aaad;
 }
 
 .dashboard .banner:first-child .thirdBox {
-  color: #ff008d;
+  color: #48aaad;
   background: #fff;
 }
 
@@ -366,7 +364,6 @@ body {
 }
 
 @media (max-width: 1376px) {
-
   .dashboard .banner:first-child .firstBox .content div,
   .dashboard .banner:first-child .firstBox .content div p {
     font-size: 26px;
@@ -408,7 +405,6 @@ body {
 }
 
 @media (max-width: 620px) {
-
   .dashboard .banner:first-child .secondBox,
   .dashboard .banner:first-child .thirdBox {
     width: 100%;
@@ -491,9 +487,6 @@ body {
   height: 150px;
   /* Maintain aspect ratio */
 }
-
-
-
 
 /* .sidebar {
   position: fixed;
@@ -704,7 +697,11 @@ body {
   padding: 10px;
 }
 
-.add-doctor-form form .first-wrapper div:first-child input:file-selector-button {
+.add-doctor-form
+  form
+  .first-wrapper
+  div:first-child
+  input:file-selector-button {
   position: absolute;
   width: 100%;
 }
@@ -736,12 +733,11 @@ body {
   border-radius: 8px;
   font-size: 24px;
   margin-bottom: 30px;
-  background: linear-gradient(140deg, #9083d5, #271776ca);
+  background-color: #48AAAD;
 }
 
 @media (max-width: 945px) {
   .doctors .banner {
-
     grid-template-columns: repeat(1, minmax(330px, 1fr));
   }
 
@@ -765,7 +761,6 @@ input[type="time"]:before {
   color: #444;
   margin-right: 0.5em;
 }
-
 
 .input-field {
   width: calc(50% - 10px);
@@ -812,7 +807,6 @@ input[type="time"]:before {
   margin-bottom: 10px;
 }
 
-
 .avatar-label {
   position: absolute;
   top: 0;
@@ -839,7 +833,7 @@ input[type="time"]:before {
 
 .submit-btn {
   width: 100%;
-  background-color: #48AAAD;
+  background-color: #48aaad !important;
   color: #fff;
   padding: 10px;
   border: none;
@@ -847,7 +841,7 @@ input[type="time"]:before {
   cursor: pointer;
 }
 
-.submit-btn:hover {
+/* .submit-btn:hover {
   background-color: #000000;
-  color: #48AAAD;
-}
+  color: #000000;
+} */

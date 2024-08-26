@@ -5,7 +5,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { GoCheckCircleFill } from "react-icons/go";
 import { AiFillCloseCircle } from "react-icons/ai";
-
+import Admin from '../assets/admin.jpg'
 const Dashboard = ({ user: admin }) => {
   const [appointments, setAppointments] = useState([]);
 
@@ -77,7 +77,7 @@ const Dashboard = ({ user: admin }) => {
       <section className="dashboard page">
         <div className="banner">
           <div className="firstBox">
-            <img src="https://st2.depositphotos.com/4060975/9157/v/450/depositphotos_91577612-stock-illustration-doctor-colored-vector-icon.jpg" alt="docImg" />
+            <img src={Admin} alt="docImg" />
             <div className="content">
               <div>
                 <p>Hello ,</p>
